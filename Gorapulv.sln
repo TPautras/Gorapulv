@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gorapulv.Api", "Gorapulv.Api\Gorapulv.Api.csproj", "{8290BC0D-6DC9-461A-84D9-9A8E2CBFF7E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gorapulv.Tests", "Gorapulv.Tests\Gorapulv.Tests.csproj", "{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{8290BC0D-6DC9-461A-84D9-9A8E2CBFF7E3}.Release|x64.Build.0 = Release|Any CPU
 		{8290BC0D-6DC9-461A-84D9-9A8E2CBFF7E3}.Release|x86.ActiveCfg = Release|Any CPU
 		{8290BC0D-6DC9-461A-84D9-9A8E2CBFF7E3}.Release|x86.Build.0 = Release|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Debug|x64.Build.0 = Debug|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Debug|x86.Build.0 = Debug|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Release|x64.ActiveCfg = Release|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Release|x64.Build.0 = Release|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Release|x86.ActiveCfg = Release|Any CPU
+		{43347BE8-DAB5-4C43-843B-B1D915DE8AD8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

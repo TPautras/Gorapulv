@@ -29,8 +29,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors("AllowAll"); 
-app.UseHttpsRedirection(); 
+app.UseCors("AllowAll");
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseAuthorization();
 app.MapControllers();
+
+app.MapFallbackToFile("index.html");
 app.Run();
+
